@@ -1,12 +1,12 @@
-
 img{
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -150px;
   margin-left: -150px;
+  max-width: 100%;
+  height: auto;
 }
-
 button{
   background-color: rgb(223,0,32);
   border: 1px solid rgb(223,0,32);
@@ -23,6 +23,7 @@ nav {
   margin-top: 250px;
   text-align: center;
   color: red;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -30,4 +31,3 @@ nav {
 
 @media only screen and (min-width: 768px;) {
 }
-
