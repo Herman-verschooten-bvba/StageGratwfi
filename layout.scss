@@ -10,18 +10,19 @@ $gratwifi-color: rgb(233,0,32);
 }
 
 #main{
-  display: flex;
-  border-style: solid;
-  border-color: black;
   min-height: 500px;
-  width: 73%;
+  width: 75%;
+  margin: 0;
+  display: inline-block;
+  float: left;
 }
 
 #aside{
-  display: flex;
-  border-style: solid;
+  min-height: 500px;
   width: 25%;
-
+  margin: 0;
+  display: inline-block;
+  float: left;
 }
 
 #content{
