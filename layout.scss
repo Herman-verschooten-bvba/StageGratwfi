@@ -51,11 +51,18 @@ main {
 
 #content {
   flex: 1;
+	text-align: center;
 }
 
 aside {
   text-align: center;
 }
+}
+
+
+
+#layoutContent{
+	text-align: justify;
 }
 
 footer {
