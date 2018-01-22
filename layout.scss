@@ -3,34 +3,74 @@
 
 $gratwifi-color: rgb(233,0,32);
 
-#header{
-  border-style: solid;
-  border-color: blue;
-  min-height: 100px;
-}
-
-#main{
-  min-height: 500px;
-  width: 75%;
+body {
   margin: 0;
-  display: inline-block;
-  float: left;
 }
-
-#aside{
-  min-height: 500px;
-  width: 25%;
-  margin: 0;
-  display: inline-block;
-  float: left;
-}
-
-#content{
-}
-
-#footer{
+#wrapper {
+  height: 100vh;
   display: flex;
-  border-style: solid;
-  border-color: red;
-  min-height: 50px;
+  flex-direction: column;
+  margin: 0;
+  max-width: 1024px;
+}
+
+header {
+background-color: $gratwifi-color;
+
+#slogan{
+   color: white;
+   text-align: center;
+  }
+
+#language-buttons{
+  display: flex;
+  justify-content: center;
+  height: 20px;
+
+  a img{
+    cursor: pointer;
+    position: relative;
+    margin: 5px;
+  }
+}
+
+#menu{
+  text-align: center;
+  margin: 5px;
+  button{
+  background-color: white;
+  text-decoration: none;
+  }
+}
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+#content {
+  flex: 1;
+}
+
+aside {
+  text-align: center;
+}
+}
+
+footer {
+  text-align: center;
+
+  #footerInhoud{
+    text-decoration: none;
+  }
+}
+
+@media  (min-width: 700px) {
+  main {
+    flex-direction: row;
+  }
+  aside {
+    width: 300px;
+  }
 }

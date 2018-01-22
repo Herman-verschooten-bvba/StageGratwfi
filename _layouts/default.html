@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="layout.css">
-    <title>GratWiFi - Gratis WiFi waar en wanneer u wil !</title>
-  </head>
+<head>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<title>GratWiFi - Gratis WiFi waar en wanneer u wil !</title>
+</head>
 
-  <body>
-    <header id="header">
-      <span id="slogan">Gratis WiFi waar en wanneer u will !</span>
-    </header>
-
-    <div id="content">
-    <main id="main">
-    <p>MAIN</p>
-    </main>
-
-    <aside id="aside">
-      <p>ASIDE</p>
-    </div>
-    </aside>
-
-    <footer id="footer">
-      <p>FOOTER</p>
-    </footer>
-
-
-  </body>
+<body>
+	<div id="wrapper">
+		<header>
+		<div id="slogan"><p>Gratis WiFi waar en wanneer u wil !</p></div>
+		<div id="language-buttons">
+			<a href="/nl"><img src="/assets/nl.gif" alt="Nederlands">
+				<a href="/en"><img src="/assets/gb.gif" alt="English"></a>
+				<a href="/fr"><img src="/assets/fr.gif" alt="Francais"></a>
+				<a href="/de"><img src="/assets/de.gif" alt="Deutsch"></a>
+			</div>
+			<nav id="menu">
+			<a href="/nl"><button>Home</button></a>
+			<a href="nl/wat"><button>Wat?</button></a>
+			<a href="nl/portaal"><button>Ons portaal</button></a>
+			<a href="nl/prijzen"><button>Prijzen</button></a>
+			<a href="nl/installatie"><button>Installatie</button></a>
+			</nav>
+			</header>
+			<main>
+			<section id="content">
+			<div id="content">
+				{{ content }}
+			</div>
+			</section>
+			<aside>
+			<a href="nl/contacts/new"><img src="/assets/nl_gratis_wifi.png" alt="gratis WiFi"></a>
+			</aside>
+			</main>
+			<footer>
+			<div id="footerInhoud">
+				Alle rechten voorbehouden GratWiFi@ -
+				<a href="nl/contacts/new">Contact</a>
+				-
+				<a href="https://www.teamviewer.com/nl/download/">Teamviewer Support</a>
+			</div>
+		</div>
+		</footer>
+	</div>
+</body>
 </html>
