@@ -7,6 +7,7 @@ portaal: Ons portaal
 prijzen: Prijzen
 installatie: Installatie
 rechten: Alle rechten voorbehouden GratWiFi@
+foto: assets/nl_gratis_wifi.png
 
 ---
 
@@ -21,6 +22,5 @@ Vaak is het echter vrij duur om een uurtje draadloos te kunnen surfen, en dat sc
 Het kan ook anders! GratWiFi® stelt u in de gelegenheid om, mits een kleine investering, uw gasten gratis te laten surfen. Uw zakencijfer zal er wel bij varen…
 
 ### Wij kozen voor GratWiFi®
-
 
 ![](assets/people.png)

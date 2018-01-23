@@ -8,6 +8,7 @@ portaal: Unser Portal
 prijzen: Preise
 installatie: Installation
 rechten: Alle Rechte vorbehalten GratWiFi@
+foto: assets/de_gratis_wifi.png
 
 ---
 
