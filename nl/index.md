@@ -24,4 +24,4 @@ Het kan ook anders! GratWiFi® stelt u in de gelegenheid om, mits een kleine inv
 
 ### Wij kozen voor GratWiFi®
 
-![](assets/people.png)
+![]( /assets/people.png)

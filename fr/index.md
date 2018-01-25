@@ -24,4 +24,4 @@ C’est possible autrement! GratWiFi® vous permet d’offrir l’ internet grat
 
 ### Nous avons choisi GratWiFi®
 
-![](assets/people.png)
+![]( /assets/people.png)

@@ -24,4 +24,4 @@ There is another way! GratWiFi® allows you to offer your guests free surfing. Y
 
 ### We chose GratWiFi®
 
-![](assets/people.png)
+![]( /assets/people.png)

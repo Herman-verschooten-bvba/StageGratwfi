@@ -2,7 +2,6 @@
 layout: default
 lang: de
 slogan: Kostenloses W-LAN, wo und wann Sie wollen!
-link: /de
 wat: Was ist GratWiFi?
 portaal: Unser Portal
 prijzen: Preise
@@ -24,4 +23,4 @@ permalink: /index.html
 
 ### Wir haben GratWiFi®
 
-![](assets/people.png)
+![]( /assets/people.png)
