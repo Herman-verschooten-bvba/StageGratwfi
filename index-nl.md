@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: nl
 slogan: Gratis WiFi waar en wanneer u wil !
 link: /nl
 wat: Wat is GratWiFi?
@@ -8,7 +9,7 @@ prijzen: Prijzen
 installatie: Installatie
 rechten: Alle rechten voorbehouden GratWiFi@
 foto: assets/nl_gratis_wifi.png
-
+permalink: /index.html
 ---
 
 ### Gratis internet voor uw gasten
