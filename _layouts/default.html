@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<title>{{ page.slogan }}</title>
@@ -31,6 +32,7 @@
 			</section>
 			<aside>
 			<a href="nl/contacts/new"><img src=" /assets/{{ site.active_lang }}_gratis_wifi.png" alt="gratis WiFi"></a>
+			<div id="elm-quote"></div>
 			</aside>
 			</main>
 			<footer>
@@ -44,5 +46,11 @@
 		</div>
 		</footer>
 	</div>
+	<script type="text/javascript" src="quote.js"></script>
+	<script>
+		var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
+		var node = document.getElementById('elm-quote');
+		var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
+	</script>
 </body>
 </html>

@@ -31,6 +31,9 @@ plugins:
   - jekyll-feed
   - jekyll-polyglot
 
+exclude:
+  - _elm
+
 languages: ["en", "nl", "de", "fr", "xx"]
 default_lang: "xx"
 exclude_from_localization: ["javascript", "images", "css", "assets"]
