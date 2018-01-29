@@ -3,25 +3,26 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layout.css">
-	<title>{{ page.slogan }}</title>
+	<title>{{ site.data.navigation.slogan }}</title>
 </head>
 
 <body>
 	<div id="wrapper">
 		<header>
-		<div id="slogan"><p>{{ page.slogan }}</p></div>
+		<div id="slogan"><p>{{ site.data.navigation.slogan }}</p></div>
 		<div id="language-buttons">
-			<a href=" /nl"><img src="/assets/nl.gif" alt="Nederlands">
+				<a href=" /nl"><img src="/assets/nl.gif" alt="Nederlands"></a>
 				<a href=" /en"><img src="/assets/gb.gif" alt="English"></a>
 				<a href=" /fr"><img src="/assets/fr.gif" alt="Francais"></a>
 				<a href=" /de"><img src="/assets/de.gif" alt="Deutsch"></a>
 			</div>
 			<nav id="menu">
-			<a href="/"><button>Home</button></a>
-			<a href="wat"><button>{{ page.wat }}</button></a>
-			<a href="portaal"><button>{{ page.portaal }}</button></a>
-			<a href="prijzen"><button>{{ page.prijzen }}</button></a>
-			<a href="installatie"><button>{{ page.installatie }}</button></a>
+				<a href="/">home</a>
+				<a href="wat">{{site.data.navigation.wat}}</a>
+				<a href="portaal">{{site.data.navigation.portaal}}</a>
+				<a href="prijzen">{{sie.data.navigation.prijzen}}</a>
+				<a href="installatie">{{site.data.navigation.installatie}}</a>
+				<a href="https://dashboard.gratwifi.eu">Dashboard</a>
 			</nav>
 			</header>
 			<main>
