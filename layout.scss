@@ -39,8 +39,11 @@ background-color: $gratwifi-color;
   text-align: center;
   margin: 5px;
   button{
-  background-color: white;
+  background-color: #FFFFFF;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
   }
 }
 }
@@ -68,6 +71,7 @@ aside {
 
 footer {
   text-align: center;
+  background-color: $gratwifi-color;
 
   #footerInhoud{
     text-decoration: none;
@@ -75,6 +79,12 @@ footer {
 }
 
 @media  (min-width: 700px) {
+
+  body{
+    display: flex;
+    justify-content: center;
+  }
+
   main {
     flex-direction: row;
   }
