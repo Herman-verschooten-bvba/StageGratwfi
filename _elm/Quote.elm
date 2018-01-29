@@ -4,6 +4,7 @@ import Html exposing (Html)
 import Html.Attributes exposing (class)
 import List.Extra as List
 import Random
+import ElmEscapeHtml exposing (unescape)
 
 
 type alias Quote =
@@ -41,10 +42,10 @@ view model =
     Html.div [ class "quote" ]
         [ Html.blockquote []
             [ Html.p []
-                [ Html.text model.quote
+                [ Html.text (unescape model.quote)
                 ]
             , Html.p [ class "quotee" ]
-                [ Html.text model.name
+                [ Html.text (unescape model.name)
                 ]
             ]
         ]
