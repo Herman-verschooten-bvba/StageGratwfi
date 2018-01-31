@@ -21,11 +21,24 @@ quotes : String -> List Quote
 quotes locale =
     case locale of
         "nl" ->
-            [ Quote "Gust" "Aapjes&reg; eten graag nootjes"
+            [ Quote "Bart van de Cloot, Wok a Way" "Dankzij GratWiFi&reg; genieten al onze klanten nu van gratis internet."
+            , Quote "Harry Curvers, Camping 't Soete Dal" "Ongelooflijk hoe goed GratWiFi&reg; werkt, en als er eens een probleem is, wordt dit zo verholpen."
             ]
 
         "fr" ->
-            []
+            [ Quote "Bart van de Cloot, Wok a Way" "Grace à GratWiFi® tous nos clients peuvent désormais profiter de l'internet sans fil."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Incroyable à quel point GratWiFi® fonctionne, et s'il ya un problème, il est fixé immédiatement."
+            ]
+
+        "en" ->
+            [ Quote "Bart van de Cloot" "Thanks to GratWiFi® all our customers are now able to enjoy free wireless internet."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unbelievable how well GratWiFi® works, and if there is an issue, it is fixed immediately."
+            ]
+
+        "de" ->
+            [ Quote "Bart van de Cloot" "Durch GratWiFi® sind all unsere Kunden nun in der Lage, kostenfreiem Internet zu geniessen."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unglaublich, wie gut GratWiFi® arbeitet, und wenn es ein Problem gibt, wird es sofort behoben."
+            ]
 
         _ ->
             []
