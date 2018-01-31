@@ -21,7 +21,8 @@ quotes : String -> List Quote
 quotes locale =
     case locale of
         "nl" ->
-            [ Quote "Gust" "Aapjes&reg; eten graag nootjes"
+            [ Quote "Bart van de Cloot, Wok a Way" "Dankzij GratWiFi&reg; genieten al onze klanten nu van gratis internet."
+            , Quote "Harry Curvers, Camping 't Soete Dal" "Ongelooflijk hoe goed GratWiFi&reg; werkt, en als er eens een probleem is, wordt dit zo verholpen."
             ]
 
         "fr" ->
