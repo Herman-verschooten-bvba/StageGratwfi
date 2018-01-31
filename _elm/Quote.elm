@@ -30,6 +30,11 @@ quotes locale =
             , Quote "Harry Curves, Camping 't Soete Dal" "Incroyable à quel point GratWiFi® fonctionne, et s'il ya un problème, il est fixé immédiatement."
             ]
 
+        "en" ->
+            [ Quote "Bart van de Cloot" "Thanks to GratWiFi® all our customers are now able to enjoy free wireless internet."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unbelievable how well GratWiFi® works, and if there is an issue, it is fixed immediately."
+            ]
+
         _ ->
             []
 
