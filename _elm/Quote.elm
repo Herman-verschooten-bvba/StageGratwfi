@@ -26,7 +26,9 @@ quotes locale =
             ]
 
         "fr" ->
-            []
+            [ Quote "Bart van de Cloot, Wok a Way" "Grace à GratWiFi® tous nos clients peuvent désormais profiter de l'internet sans fil."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Incroyable à quel point GratWiFi® fonctionne, et s'il ya un problème, il est fixé immédiatement."
+            ]
 
         _ ->
             []
