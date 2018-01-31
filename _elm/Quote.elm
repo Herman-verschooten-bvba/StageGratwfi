@@ -35,6 +35,11 @@ quotes locale =
             , Quote "Harry Curves, Camping 't Soete Dal" "Unbelievable how well GratWiFi® works, and if there is an issue, it is fixed immediately."
             ]
 
+        "de" ->
+            [ Quote "Bart van de Cloot" "Durch GratWiFi® sind all unsere Kunden nun in der Lage, kostenfreiem Internet zu geniessen."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unglaublich, wie gut GratWiFi® arbeitet, und wenn es ein Problem gibt, wird es sofort behoben."
+            ]
+
         _ ->
             []
 
