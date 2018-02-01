@@ -7,7 +7,7 @@ wat: Wat is GratWiFi?
 portaal: Ons portaal
 prijzen: Prijzen
 installatie: Installatie
-rechten: Alle rechten voorbehouden GratWiFi@
+rechten: Alle rechten voorbehouden GratWiFi®
 foto: assets/nl_gratis_wifi.png
 permalink: /index.html
 ---
