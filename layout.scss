@@ -63,7 +63,14 @@ aside {
 }
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
+a:hover{
+  text-decoration: underline;
+}
 
 #layoutContent{
 	text-align: justify;
@@ -72,9 +79,9 @@ aside {
 footer {
   text-align: center;
   background-color: $gratwifi-color;
-
   #footerInhoud{
     text-decoration: none;
+    color: white;
   }
 }
 
