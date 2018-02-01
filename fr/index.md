@@ -1,14 +1,6 @@
 ---
 layout: default
 lang: fr
-slogan: WiFi gratuit où et quand vous voulez!
-link: /fr
-wat: Qu'est-ce que le GratWiFi?
-portaal: Notre portail
-prijzen: Prix
-installatie: Installation
-rechten: Tous droits réservés GratWiFi®
-foto: assets/fr_gratis_wifi.png
 permalink: /index.html
 ---
 
