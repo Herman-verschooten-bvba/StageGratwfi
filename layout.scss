@@ -77,8 +77,10 @@ a:hover{
 }
 
 footer {
+  position: relative;
   text-align: center;
   background-color: $gratwifi-color;
+  margin-bottom: 20px;
   #footerInhoud{
     text-decoration: none;
     color: white;
