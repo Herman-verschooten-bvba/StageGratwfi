@@ -12567,11 +12567,43 @@ var _user$project$Quote$quotes = function (locale) {
 		case 'nl':
 			return {
 				ctor: '::',
-				_0: A2(_user$project$Quote$Quote, 'Gust', 'Aapjes&reg; eten graag nootjes'),
-				_1: {ctor: '[]'}
+				_0: A2(_user$project$Quote$Quote, 'Bart van de Cloot, Wok a Way', 'Dankzij GratWiFi&reg; genieten al onze klanten nu van gratis internet.'),
+				_1: {
+					ctor: '::',
+					_0: A2(_user$project$Quote$Quote, 'Harry Curvers, Camping \'t Soete Dal', 'Ongelooflijk hoe goed GratWiFi&reg; werkt, en als er eens een probleem is, wordt dit zo verholpen.'),
+					_1: {ctor: '[]'}
+				}
 			};
 		case 'fr':
-			return {ctor: '[]'};
+			return {
+				ctor: '::',
+				_0: A2(_user$project$Quote$Quote, 'Bart van de Cloot, Wok a Way', 'Grace à GratWiFi® tous nos clients peuvent désormais profiter de l\'internet sans fil.'),
+				_1: {
+					ctor: '::',
+					_0: A2(_user$project$Quote$Quote, 'Harry Curves, Camping \'t Soete Dal', 'Incroyable à quel point GratWiFi® fonctionne, et s\'il ya un problème, il est fixé immédiatement.'),
+					_1: {ctor: '[]'}
+				}
+			};
+		case 'en':
+			return {
+				ctor: '::',
+				_0: A2(_user$project$Quote$Quote, 'Bart van de Cloot', 'Thanks to GratWiFi® all our customers are now able to enjoy free wireless internet.'),
+				_1: {
+					ctor: '::',
+					_0: A2(_user$project$Quote$Quote, 'Harry Curves, Camping \'t Soete Dal', 'Unbelievable how well GratWiFi® works, and if there is an issue, it is fixed immediately.'),
+					_1: {ctor: '[]'}
+				}
+			};
+		case 'de':
+			return {
+				ctor: '::',
+				_0: A2(_user$project$Quote$Quote, 'Bart van de Cloot', 'Durch GratWiFi® sind all unsere Kunden nun in der Lage, kostenfreiem Internet zu geniessen.'),
+				_1: {
+					ctor: '::',
+					_0: A2(_user$project$Quote$Quote, 'Harry Curves, Camping \'t Soete Dal', 'Unglaublich, wie gut GratWiFi® arbeitet, und wenn es ein Problem gibt, wird es sofort behoben.'),
+					_1: {ctor: '[]'}
+				}
+			};
 		default:
 			return {ctor: '[]'};
 	}
