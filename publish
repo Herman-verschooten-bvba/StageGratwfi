@@ -1,7 +1,7 @@
 #! /bin/sh
 
 cd _elm
-elm make Quote.elm --output ../quote.js --warn
+elm make Quote.elm --output ../javascript/quote.js --warn
 
 cd ..
 
