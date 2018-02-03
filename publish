@@ -1,0 +1,4 @@
+#! /bin/sh
+
+jekyll build
+scp -r _site/* gratwifi:site
