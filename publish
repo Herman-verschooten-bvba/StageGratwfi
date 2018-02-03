@@ -6,4 +6,4 @@ elm make Quote.elm --output ../quote.js --warn
 cd ..
 
 jekyll build
-rsync -avrh _site/* gratwifi:_site
+rsync -avzp --del _site/ gratwifi:_site/
