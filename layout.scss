@@ -145,15 +145,14 @@ main {
 }
 
 footer {
+  height: 30px;
+  padding: 13px 0 0 19px;
   text-align: center;
   background-color: $gratwifi-color;
   #footerInhoud{
     text-decoration: none;
     color: white;
   }
-  margin-bottom: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 @media  (min-width: 700px) {
