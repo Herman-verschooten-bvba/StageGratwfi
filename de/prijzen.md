@@ -6,8 +6,8 @@ layout: default
 
 ### Der Preis
 
-Der Installationspreis richtet sich nach dem Umfang Ihres Geschäfts und die Größe des Bereichs der von GratWiFi® versehen werden soll. Wir können sowohl in kleinen Kneipen wie in Hotels mit über 500 Zimmern Hotspot-Empfang installieren.
+Der Installationspreis richtet sich nach dem Umfang Ihres Gesch&auml;fts und die Gr&ouml;&beta;e des Bereichs der von GratWiFi&reg; versehen werden soll. Wir k&ouml;nnen sowohl in kleinen Kneipen wie in Hotels mit &uuml;ber 500 Zimmern Hotspot-Empfang installieren.
 
-Des weiteren sind eine beschränkte monatliche Gebühr sowie die Kosten für Buchführung und Instandhaltung der Installation zu berücksichtigen.
+Des weiteren sind eine beschr&auml;nkte monatliche Geb&uuml;hr sowie die Kosten f&uuml;r Buchf&uuml;hrung und Instandhaltung der Installation zu ber&uuml;cksichtigen.
 
-Unsere Vertriebsmitarbeiter unterbreiten Ihnen gerne ein maßgeschneidertes Angebot.
+Unsere Vertriebsmitarbeiter unterbreiten Ihnen gerne ein ma&beta;geschneidertes Angebot.

@@ -26,18 +26,18 @@ quotes locale =
             ]
 
         "fr" ->
-            [ Quote "Bart van de Cloot, Wok a Way" "Grace à GratWiFi® tous nos clients peuvent désormais profiter de l'internet sans fil."
-            , Quote "Harry Curves, Camping 't Soete Dal" "Incroyable à quel point GratWiFi® fonctionne, et s'il ya un problème, il est fixé immédiatement."
+            [ Quote "Bart van de Cloot, Wok a Way" "Grace &agrave; GratWiFi&reg; tous nos clients peuvent d&eacute;sormais profiter de l'internet sans fil."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Incroyable &agrave; quel point GratWiFi&reg; fonctionne, et s'il ya un probl&egrave;me, il est fix&eacute; imm&eacute;diatement."
             ]
 
         "en" ->
-            [ Quote "Bart van de Cloot" "Thanks to GratWiFi® all our customers are now able to enjoy free wireless internet."
-            , Quote "Harry Curves, Camping 't Soete Dal" "Unbelievable how well GratWiFi® works, and if there is an issue, it is fixed immediately."
+            [ Quote "Bart van de Cloot" "Thanks to GratWiFi&reg; all our customers are now able to enjoy free wireless internet."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unbelievable how well GratWiFi&reg; works, and if there is an issue, it is fixed immediately."
             ]
 
         "de" ->
-            [ Quote "Bart van de Cloot" "Durch GratWiFi® sind all unsere Kunden nun in der Lage, kostenfreiem Internet zu geniessen."
-            , Quote "Harry Curves, Camping 't Soete Dal" "Unglaublich, wie gut GratWiFi® arbeitet, und wenn es ein Problem gibt, wird es sofort behoben."
+            [ Quote "Bart van de Cloot" "Durch GratWiFi&reg; sind all unsere Kunden nun in der Lage, kostenfreiem Internet zu geniessen."
+            , Quote "Harry Curves, Camping 't Soete Dal" "Unglaublich, wie gut GratWiFi&reg; arbeitet, und wenn es ein Problem gibt, wird es sofort behoben."
             ]
 
         _ ->

@@ -4,13 +4,13 @@ permalink: /wat
 layout: default
 ---
 
-### Wir bieten Ihnen kostenloses W-LAN für alle Ihre Kommunikationsformen.
-Von vielen Unternehmen wird bereits W-LAN angeboten doch mit unserem System kann direkt mit den Gästen kommuniziert werden.
+### Wir bieten Ihnen kostenloses W-LAN f&uuml;r alle Ihre Kommunikationsformen.
+Von vielen Unternehmen wird bereits W-LAN angeboten doch mit unserem System kann direkt mit den G&auml;sten kommuniziert werden.
 
-Seit März 2009 hat derjenige der Internet-Zugang zur Verfügung stellt, die Pflicht Datensätze zu speichern. Unser System macht das für Sie. (2006/24/EG)
+Seit M&auml;rz 2009 hat derjenige der Internet-Zugang zur Verf&uuml;gung stellt, die Pflicht Datens&auml;tze zu speichern. Unser System macht das f&uuml;r Sie. (2006/24/EG)
 
-Ihre Kunden die eine Verbindung zu unserem WLAN-System möchten, werden automatisch auf unsere "Nutzungsbedingungen"-Seite umgeleitet. Wenn diese akzeptiert werden, wird der Nutzer auf eine von Ihnen bestimmte Seite umgeleitet: die "Begrüßungs-Seite".
+Ihre Kunden die eine Verbindung zu unserem WLAN-System m&ouml;chten, werden automatisch auf unsere "Nutzungsbedingungen"-Seite umgeleitet. Wenn diese akzeptiert werden, wird der Nutzer auf eine von Ihnen bestimmte Seite umgeleitet: die "Begr&uuml;&beta;ungs-Seite".
 
-Auf dieser Seite können Sie z.B. besondere Angebote für Ihre Gäste anbieten, eine Umfrage zur Kundenzufriedenheit aufstellen oder vielleicht einen Online-Bestellservice anbieten. Kurz gesagt, die Möglichkeiten sind endlos und wir unterstützen Sie bei der Auswahl.
+Auf dieser Seite k&ouml;nnen Sie z.B. besondere Angebote f&uuml;r Ihre G&auml;ste anbieten, eine Umfrage zur Kundenzufriedenheit aufstellen oder vielleicht einen Online-Bestellservice anbieten. Kurz gesagt, die M&ouml;glichkeiten sind endlos und wir unterst&uuml;tzen Sie bei der Auswahl.
 
-Wenn der Nutzer die Begrüßungseite gelesen hat, kann er so lange im Internet surfen wie Sie es bestimmt haben.
+Wenn der Nutzer die Begr&uuml;&beta;ungseite gelesen hat, kann er so lange im Internet surfen wie Sie es bestimmt haben.
