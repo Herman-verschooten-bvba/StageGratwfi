@@ -23,6 +23,9 @@ plugins:
   - jekyll-feed
   - jekyll-polyglot
 
+kramdown:
+  entity_output: :as_input
+
 languages: ["en", "nl", "de", "fr", "xx"]
 default_lang: "xx"
 exclude_from_localization: ["javascript", "images", "css", "assets"]
@@ -33,6 +36,7 @@ parallel_localization: true
 # to override the default setting.
 exclude:
   - _elm
+  - publish
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
