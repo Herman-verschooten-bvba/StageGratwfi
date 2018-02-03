@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="layout.css">
-	<title>{{ site.data.navigation.slogan }}</title>
-</head>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/css/layout.css">
+		<title>{{ site.data.navigation.slogan }}</title>
+	</head>
 
-<body>
-	<div id="wrapper">
-		<header>
-		<div id="slogan"><p>{{ site.data.navigation.slogan }}</p></div>
-		<div id="language-buttons">
-				<a href=" /nl"><img src="/assets/nl.gif" alt="Nederlands"></a>
-				<a href=" /en"><img src="/assets/gb.gif" alt="English"></a>
-				<a href=" /fr"><img src="/assets/fr.gif" alt="Francais"></a>
-				<a href=" /de"><img src="/assets/de.gif" alt="Deutsch"></a>
-			</div>
-			<nav id="menu">
-				<a href="/">home</a>
+	<body>
+		<div id="wrapper">
+			<header>
+			<div id="logo"><img src="/assets/logo.png"></div>
+			<div id="navigatie">
+				<div id="language-buttons">
+					<a href=" /nl"><img src="/assets/nl.gif" alt="Nederlands"></a>
+					<a href=" /en"><img src="/assets/gb.gif" alt="English"></a>
+					<a href=" /fr"><img src="/assets/fr.gif" alt="Francais"></a>
+					<a href=" /de"><img src="/assets/de.gif" alt="Deutsch"></a>
+				</div>
+				<div id="slogan"><p>{{ site.data.navigation.slogan }}</p></div>
+				<nav id="menu">
+				<a href="/">Home</a>
 				<a href="wat">{{site.data.navigation.wat}}</a>
 				<a href="portaal">{{site.data.navigation.portaal}}</a>
-				<a href="prijzen">{{sie.data.navigation.prijzen}}</a>
+				<a href="prijzen">{{site.data.navigation.prijzen}}</a>
 				<a href="installatie">{{site.data.navigation.installatie}}</a>
-				<a href="https://dashboard.gratwifi.eu">Dashboard</a>
-			</nav>
-			<!-- <img id="Gratlogo" src="/assets/logo.jpg" alt="Gratlogo"> -->
+				</nav>
+			</div>
 			</header>
 			<main>
 			<section id="content">
@@ -33,33 +33,25 @@
 			</div>
 			</section>
 			<aside>
-			<a href=ontacts/new"><img src=" /assets/{{ site.active_lang }}_gratis_wifi.png" alt="gratis WiFi"></a>
+			<a href="contact"><img src=" /assets/{{ site.active_lang }}_gratis_wifi.png" alt="gratis WiFi"></a>
 			<div id="elm-quote"></div>
 			</aside>
 			</main>
-			<script type="text/javascript" src="quote.js"></script>
-			<script>
-			var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
-			var node = document.getElementById('elm-quote');
-			var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
-			</script>
 			<footer>
 			<div id="footerInhoud">
 				{{ site.data.navigation.rechten }}
 				-
-				<a href="contacts/new">Contact</a>
+				<a href="contact">Contact</a>
 				-
-				<a href="https://www.teamviewer.com/nl/download/">Teamviewer Support</a>
+				<a href="https://get.teamviewer.com/6c2s7re">Teamviewer Support</a>
 			</div>
 			</footer>
-			</div>
-	<!--
-	<script type="text/javascript" src="quote.js"></script>
-	<script>
-		var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
-		var node = document.getElementById('elm-quote');
-		var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
-	</script>
-	-->
-</body>
+		</div>
+		<script type="text/javascript" src="quote.js"></script>
+		<script>
+			var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
+			var node = document.getElementById('elm-quote');
+			var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
+		</script>
+	</body>
 </html>

@@ -1,0 +1,171 @@
+---
+---
+
+$gratwifi-color: rgb(233,0,32);
+$page-bg-color: white;
+$quotes-color: rgb(110, 109, 109);
+$text-color: #727272;
+$menu-color: #666666;
+
+body {
+  margin: 0;
+  font: 12px Verdana;
+  color: $text-color;
+}
+
+h3 {
+  font: 18px Verdana;
+  color: $text-color;
+  padding: 0 0 10px 0;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: 1024px;
+}
+
+header {
+  background-color: $page-bg-color;
+  height: 192px;
+  background: url('/assets/wrapper_bg.png') top left repeat-x;
+  display: flex;
+  flex-direction: row;
+
+  #logo {
+    margin-left: 10%;
+    margin-top: 7px;
+    margin-right: auto;
+  }
+
+  #navigatie {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 193px;
+  }
+
+  #language-buttons{
+    display: flex;
+    justify-content: center;
+    height: 41px;
+    align-items: center;
+
+    a img{
+      cursor: pointer;
+      position: relative;
+      margin: 5px;
+    }
+  }
+
+  #slogan{
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 24px;
+    padding-right: 5px;
+    height: 72px;
+  }
+
+  #menu{
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    a {
+      font-size: 18px;
+      color: $menu-color;
+      background: url('/assets/mnu_spacer.png') top right no-repeat;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    a:last-of-type {
+      background: none;
+      padding-right: 0px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 390px;
+
+  #content {
+    flex: 1;
+    text-align: center;
+  }
+
+  aside {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    img {
+      margin-top: 10%;
+      margin-bottom: 30%;
+    }
+    #elm-quote {
+      margin-left: 5px;
+      padding: 5px 0 0 0;
+      color: $quotes-color;
+      background: url(/assets/cite.png) top left no-repeat;
+      blockquote{
+        padding: 0 2px 5px 5px;
+        background: url(/assets/cite.png) bottom right no-repeat;
+      }
+      p {
+        padding: 5px 0 5px 0;
+      }
+      .quotee {
+        color: #191919;
+      }
+    }
+  }
+}
+
+
+#layoutContent{
+  text-align: justify;
+}
+
+footer {
+  height: 30px;
+  padding: 13px 0 0 19px;
+  text-align: center;
+  background-color: $gratwifi-color;
+  #footerInhoud{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media  (min-width: 700px) {
+
+  body{
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    flex-direction: row;
+  }
+  aside {
+    width: 300px;
+  }
+}
