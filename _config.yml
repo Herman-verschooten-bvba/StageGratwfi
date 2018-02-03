@@ -37,6 +37,7 @@ parallel_localization: true
 exclude:
   - _elm
   - publish
+  - README.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
