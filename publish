@@ -1,4 +1,9 @@
 #! /bin/sh
 
+cd _elm
+elm make Quote.elm --output ../quote.js --warn
+
+cd ..
+
 jekyll build
-scp -r _site/* gratwifi:site
+rsync -avrh _site/* gratwifi:_site
