@@ -9,4 +9,4 @@ Wordt steeds uitgevoerd door professionele installateurs, die zorg besteden aan 
 
 Omdat ons beveiligde systeem geen paswoorden of registratiecodes vereist kunnen uw klanten gemakkelijk op het internet raken. Geen gezeur!
 
-U kan zelf een naam kiezen voor uw draadloze netwerk “Hotel Luxor Wifi” bvb.
+U kan zelf een naam kiezen voor uw draadloze netwerk "Hotel Luxor Wifi" bvb.

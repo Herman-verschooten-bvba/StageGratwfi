@@ -11,4 +11,4 @@ Sinds de wet op de dataretentie van kracht werd in maart 2009 bent u als aanbied
 
 Klanten die verbinding met het internet maken worden automatisch doorverbonden naar de gebruikersovereenkomst. Eenmaal die geaccepteerd is wordt de klant doorgelaten naar een startpagina van uw keuze.
 
-Die pagina kan speciale aanbiedingen bevatten die u onder de aandacht van uw cliënteel wenst te brengen, een enquête, een dagmenu, een nieuw product of een indicatie van uw jaarlijkse vakantiesluiting. Mogelijkheden bij de vleet!
+Die pagina kan speciale aanbiedingen bevatten die u onder de aandacht van uw cli&euml;nteel wenst te brengen, een enqu&ecirc;te, een dagmenu, een nieuw product of een indicatie van uw jaarlijkse vakantiesluiting. Mogelijkheden bij de vleet!

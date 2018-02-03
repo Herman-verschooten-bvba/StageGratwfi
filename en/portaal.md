@@ -13,4 +13,4 @@ You have the facility to adjust the session time if you so wish. Once the time i
 
 You can view statistics on usage, see how many users are currently connected. You also have the ability to block specified users, or give privileges -e.g. unlimited session time. You can also limit the volume of internet traffic a user is allowed to use within a well defined time span.
 
-Because our secure system does not require passwords or registration, guests can see the network and connect with ease. Also the name of the Wi-Fi network can be whatever you wish it to be -”Guest Wi-Fi’, Hotel Luxor Wi-Fi etc..<Paste>
+Because our secure system does not require passwords or registration, guests can see the network and connect with ease. Also the name of the Wi-Fi network can be whatever you wish it to be -"Guest Wi-Fi', Hotel Luxor Wi-Fi etc..<Paste>
