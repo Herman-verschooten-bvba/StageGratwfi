@@ -5,6 +5,7 @@ $gratwifi-color: rgb(233,0,32);
 $page-bg-color: white;
 $quotes-color: rgb(110, 109, 109);
 $text-color: #727272;
+$menu-color: #666666;
 
 body {
   margin: 0;
@@ -17,6 +18,16 @@ h3 {
   color: $text-color;
   padding: 0 0 10px 0;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
 #wrapper {
   height: 100vh;
   display: flex;
@@ -30,23 +41,27 @@ header {
   height: 192px;
   background: url('/assets/wrapper_bg.png') top left repeat-x;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   #logo {
     margin-left: 10%;
     margin-top: 7px;
+    margin-right: auto;
   }
 
-  #slogan{
-    color: white;
-    text-align: center;
-    text-decoration: solid;
+  #navigatie {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 193px;
   }
 
   #language-buttons{
     display: flex;
     justify-content: center;
-    height: 20px;
+    height: 41px;
+    align-items: center;
 
     a img{
       cursor: pointer;
@@ -55,15 +70,29 @@ header {
     }
   }
 
-  #menu{
+  #slogan{
+    color: white;
     text-align: center;
-    margin: 5px;
-    button{
-      background-color: #FFFFFF;
-      text-decoration: none;
-      display: inline-block;
-      padding: 10px 20px;
-      cursor: pointer;
+    text-decoration: solid;
+    font-size: 24px;
+    padding-right: 5px;
+    height: 72px;
+  }
+
+  #menu{
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    a {
+      font-size: 18px;
+      color: $menu-color;
+      background: url('/assets/mnu_spacer.png') top right no-repeat;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    a:last-of-type {
+      background: none;
+      padding-right: 0px;
     }
   }
 }
@@ -109,17 +138,9 @@ main {
   }
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover{
-  text-decoration: underline;
-}
 
 #layoutContent{
-	text-align: justify;
+  text-align: justify;
 }
 
 footer {
