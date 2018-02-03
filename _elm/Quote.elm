@@ -52,14 +52,12 @@ quote locale index =
 
 view : Model -> Html Msg
 view model =
-    Html.div [ class "quote" ]
-        [ Html.blockquote []
-            [ Html.p []
-                [ Html.text (unescape model.quote)
-                ]
-            , Html.p [ class "quotee" ]
-                [ Html.text (unescape model.name)
-                ]
+    Html.blockquote []
+        [ Html.p [ class "quote" ]
+            [ Html.text (unescape model.quote)
+            ]
+        , Html.p [ class "quotee" ]
+            [ Html.text (unescape model.name)
             ]
         ]
 

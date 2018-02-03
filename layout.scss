@@ -2,6 +2,8 @@
 ---
 
 $gratwifi-color: rgb(233,0,32);
+$page-bg-color: white;
+$quotes-color: rgb(110, 109, 109);
 
 body {
   margin: 0;
@@ -13,44 +15,48 @@ body {
   margin: 0;
   max-width: 1024px;
 }
-/*
-#Gratlogo{
-  height: 100px;
-  width: 100px;
-}
-*/
+
 header {
-background-color: $gratwifi-color;
-
-#slogan{
-   color: white;
-   text-align: center;
-   text-decoration: solid;
-  }
-
-#language-buttons{
+  background-color: $page-bg-color;
+  height: 192px;
+  background: url('/assets/wrapper_bg.png') top left repeat-x;
   display: flex;
-  justify-content: center;
-  height: 20px;
+  flex-direction: column;
 
-  a img{
-    cursor: pointer;
-    position: relative;
+  #logo {
+    margin-left: 10%;
+    margin-top: 7px;
+  }
+
+  #slogan{
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+  }
+
+  #language-buttons{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+
+    a img{
+      cursor: pointer;
+      position: relative;
+      margin: 5px;
+    }
+  }
+
+  #menu{
+    text-align: center;
     margin: 5px;
+    button{
+      background-color: #FFFFFF;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
   }
-}
-
-#menu{
-  text-align: center;
-  margin: 5px;
-  button{
-  background-color: #FFFFFF;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 20px;
-  cursor: pointer;
-  }
-}
 }
 
 main {
@@ -58,14 +64,39 @@ main {
   flex-direction: column;
   flex: 1;
 
-#content {
-  flex: 1;
-	text-align: center;
-}
+  #content {
+    flex: 1;
+    text-align: center;
+  }
 
-aside {
-  text-align: center;
-}
+  aside {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin-top: 10%;
+    }
+    #elm-quote {
+      margin-top: auto;
+      margin-left: 5px;
+      padding: 5px 0 0 0;
+      color: $quotes-color;
+      background: url(/assets/cite.png) top left no-repeat;
+      blockquote{
+        padding: 0 2px 5px 5px;
+        background: url(/assets/cite.png) bottom right no-repeat;
+      }
+      p {
+        padding: 5px 0 5px 0;
+      }
+      .quotee {
+        color: #191919;
+      }
+    }
+  }
 }
 
 a {

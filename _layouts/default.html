@@ -36,12 +36,6 @@
 			<div id="elm-quote"></div>
 			</aside>
 			</main>
-			<script type="text/javascript" src="quote.js"></script>
-			<script>
-			var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
-			var node = document.getElementById('elm-quote');
-			var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
-			</script>
 			<footer>
 			<div id="footerInhoud">
 				{{ site.data.navigation.rechten }}
@@ -52,13 +46,11 @@
 			</div>
 			</footer>
 			</div>
-	<!--
 	<script type="text/javascript" src="quote.js"></script>
 	<script>
 		var randomSeed = Math.floor(Math.random()*0xFFFFFFFF);
 		var node = document.getElementById('elm-quote');
 		var app = Elm.Quote.embed(node, { seed: randomSeed, locale: '{{ site.active_lang}}'});
 	</script>
-	-->
 </body>
 </html>
