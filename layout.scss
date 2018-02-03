@@ -30,7 +30,6 @@ a:hover{
 }
 
 #wrapper {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -102,6 +101,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-height: 390px;
 
   #content {
     flex: 1;
